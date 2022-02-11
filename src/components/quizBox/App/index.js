@@ -70,7 +70,7 @@ const QuizBox = () => {
   };
 
   return (
-    <Layout>
+    <Layout >
       {loading && <Loader />}
       {!loading && !isQuizStarted && !isQuizCompleted && (
         <Main startQuiz={startQuiz} />

@@ -6,7 +6,7 @@ import { AccountContext } from "./accountContext";
 import { SignupForm } from "./signupForm";
 
 const Container = styled.div`
-  width: 100%;
+  width: 70%;
   height: 100%;
   background: url('/bg.png');
   background-repeat: repeat-y;

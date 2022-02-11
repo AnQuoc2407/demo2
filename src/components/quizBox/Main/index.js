@@ -23,6 +23,8 @@ import { shuffle } from '../../utils';
 
 import Offline from '../Offline';
 
+
+
 const Main = ({ startQuiz }) => {
   const [category, setCategory] = useState('0');
   const [numOfQuestions, setNumOfQuestions] = useState(5);
@@ -113,7 +115,8 @@ const Main = ({ startQuiz }) => {
   if (offline) return <Offline />;
 
   return (
-    <Container>
+ 
+    <Container backgroundColor="black" >
       <Segment>
         <Item.Group divided>
           <Item>
@@ -230,6 +233,7 @@ const Main = ({ startQuiz }) => {
       </Segment>
       <br />
     </Container>
+    
   );
 };
 
