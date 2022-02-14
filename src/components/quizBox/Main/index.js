@@ -115,9 +115,9 @@ const Main = ({ startQuiz }) => {
   if (offline) return <Offline />;
 
   return (
- 
-    <Container backgroundColor="black" >
-      <Segment>
+
+    <Container>
+      <Segment style= {{top: '100px'}}>
         <Item.Group divided>
           <Item>
             <Item.Image src={mindImg} />
