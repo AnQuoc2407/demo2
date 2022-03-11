@@ -68,7 +68,7 @@ const Quiz = ({ data, countdownTime, endQuiz }) => {
   return (
     <Item.Header>
       <Container>
-        <Segment>
+        <Segment style= {{top: '70px'}}>
           <Item.Group divided>
             <Item>
               <Item.Content>

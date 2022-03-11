@@ -16,22 +16,29 @@ const AppContainer = styled.div`
 const AppMainContainer = styled.div`
   width: 1440px;
   height: 1024px;
+  display: flex;
   
+
 `;
 
 const LeftContainer = styled.div`
-  width: 360px;
+  
   height: 100%;
-  float: left;
+  float: right;
+  display: flex;
+ 
 `;
 
 const RightContainer = styled.div`
-  width: 1080px;
+  width: 100%;
   height: 700px;
   float: right;
+  display: 100%;
+  margin-left: 50px;
   background: #FFFFFF;
 box-shadow: 0px 15px 40px 5px #EDEDED;
 border-radius: 30px;
+
 `;
 
 

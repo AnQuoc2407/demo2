@@ -21,7 +21,7 @@ const Result = ({
 
   return (
     <Container>
-      <Menu fluid widths={2}>
+      <Menu fluid widths={2} style= {{top: '100px'}}>
         <Menu.Item
           name="Stats"
           active={activeTab === 'Stats'}
